@@ -1,0 +1,20 @@
+{
+  "name": "ts-store",
+  "version": "1.0.0",
+  "description": "ts-store is a simple key-value store interface for TypeScript",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "typescript",
+    "store",
+    "state"
+  ],
+  "author": "Eric Sexton",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
